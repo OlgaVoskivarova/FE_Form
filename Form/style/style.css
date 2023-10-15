@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.h1{
+ 
+    font-size: 16px;
+    border: none;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 800px;
+    line-height: 32px;
+    
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 420px;
+    margin: 150px auto;
+    /* margin-top: 100px; */
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    border-radius: 20px;
+    background-color: #FFF;
+    box-shadow:  0px 20px 32px 0px rgba(96, 97, 112, 0.24), 0px 2px 8px 0px rgba(40, 41, 61, 0.08);
+    
+
+}
+div{
+    width: 356px;
+    height: 42px;
+    border: 1px solid blue;
+    /* align-self: stretch; */
+}
+p{
+    font-size: 12px;
+    font-weight: 356px;
+    line-height: 14px;
+    color:  #7B8E98;
+}
+
+.field1{
+    padding: 7px 16px;
+    margin-bottom: 8px;
+    margin-top: 24px;
+    width: 356px;
+    height: 48px;
+    border-radius: 12px;
+    background-color: #FFF;
+    border: 1px solid yellow;
+    outline: 0;
+    
+}
+.field2{
+    width: 356px;
+    height: 48px;
+    padding: 14px 16px;
+    border-radius: 12px;
+    margin-bottom: 24px ;
+    border: 1px solid #CFD8DC;
+    outline: 0;
+}
+.field3{
+    width: 356px;
+    height: 48px ;
+    background-color: yellow;
+    border-radius: 55px;
+    padding: 14px 24px;
+    margin: 24px 0 8px;
+    border: none;
+    font-family: 'Nunito';
+
+}
+button{
+    width: 356px;
+    height: 48px;
+    background-color: white;
+    border-radius: 55px;
+    padding: 14px 24px;
+    margin-bottom: 16px;
+    border: 1px solid #CFD8DC;
+    font-family: 'Nunito';
+   
+
+}
